@@ -34,7 +34,7 @@
 		<h1></h1>
 	
 	<div class="article__infos">
-		<span class="article__date">2017-07-19</span><br />
+		<span class="article__date">2017-09-15</span><br />
 		
 		
 	</div>
@@ -42,12 +42,25 @@
 	
 
 	
-		<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><figure class="figure"><img src="/images/train.jpg" alt=""></figure></p>
-
+		<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><div id="aplayer2" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer2"),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: "氧气",
+					author: "范晓萱",
+					url: "/music/oxygen.mp3",
+					pic: "",
+				}
+			});
+		</script>
 	
 
 	
-		<span class="different-posts"><a href="/2017/07/19/20170719/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
+		<span class="different-posts"><a href="/2017/09/15/20170915/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
 
 	
 
